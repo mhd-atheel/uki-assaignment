@@ -1,0 +1,118 @@
+ <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster1.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">How To Be a Cowboy</h4>
+    
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster2.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <h6>Series 11</h6>
+     
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster3.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      
+    </div>
+  </div>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster4.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster5.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster6.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster7.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      
+    </div>
+  </div>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster8.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster9.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster10.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      
+    </div>
+  </div>
+  
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster11.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      
+    </div>
+  </div>
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="images/poster12.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    
+    </div>
+  </div>
+  <div class="ui-card">
+    <img src="images/poster1.jpg">
+    <div class="description">
+      <h3>Mountain Morning</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+  <div class="ui-card">
+    <img src="images/poster2.jpg">
+    <div class="description">
+      <h3>Mountain Morning</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+  <div class="ui-card">
+    <img src="images/poster3.jpg">
+    <div class="description">
+      <h3>Mountain Morning</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+
