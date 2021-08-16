@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+ 
+
+}
+body{
+  background-color: #bab8b8;
+  
+  
+}
+   
+       /* navbar section */
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+   
+    box-shadow: 0px 0px 14px 0px #5b5b5b;
+  
+    
+    
+  }
+  
+  nav li {
+    float: left;
+
+  }
+  
+   nav li a {
+    display: block;
+    color: #111;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+  }
+  
+  .active {
+    background-color: rgba(253, 228, 30, 1);
+    color: black;
+    font-family: sans-serif;
+    margin-right: -10px;
+  
+   
+  }
+  .active:hover{
+      background-color: black;
+      color: rgba(253, 228, 30, 1);
+  }
+
+
+                      /* ------------catagories --------------*/
+
+ .order-list ul{
+   background-color:rgba(238, 238, 225, 1)   ;
+   color: white;
+   margin-top: 5px;
+   border: 1px solid rgba(226, 226, 220, 1);
+   
+   width: 100%;
+   padding-left: 380px;
+   
+    display: inline-block;
+
+   
+ }
+ .order-list ul li{
+   list-style-type: none;
+   padding-top: 15px;
+   display: inline-block;
+  
+ }
+
+ .order-list ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-top: 15px;
+   margin-left:10px ;
+   font-family: 'poppins', sans-serif;
+   
+   
+ }
+
+
+                            /* Button catagories */
+ div.button{
+   margin-top: 20px;
+   margin-left: -75px;
+ }
+ div.button button{
+      padding: 5px;
+      margin-left: 15px;
+      width: fit-content;
+      font-weight: bolder;
+      font-size: 20px;
+      word-spacing: 5px;
+      border-radius: 7px;
+      background-color: rgba(226, 226, 220, 1);
+      color:gray;    /*rgba(237, 237, 228, 1)*/
+      border: none;
+
+ }
+ div.button2{
+  margin-top: 20px;
+  margin-bottom: 75px;
+  margin-left: 140px;
+}
+ .button2 button{
+  padding: 5px;
+  margin-left: 15px;
+  width: fit-content;
+  font-weight: bolder;
+  font-size: 20px;
+  word-spacing: 5px;
+  border-radius: 7px;
+  background-color: rgba(226, 226, 220, 1) ;
+  color:gray;    /*rgba(237, 237, 228, 1)*/
+  border: none;
+ }
+  .container{
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 250px;
+   
+  }
+
+.add-show {
+  background-color: white;
+  box-shadow: inset;
+  padding: 1em;
+  margin-top: 3rem;
+  
+}
+
+.add-shadow {
+  margin: -16px;
+  margin-bottom: 1.5em;
+  padding: 0;
+  stroke: black;
+  stroke-width: 2px;
+  background-color: rgba(167, 166, 166, 0.185);
+}
+
+.form-control {
+  border-radius: 0;
+  padding: 10px;
+  /* border-color: gray; */
+}
+
+
+
+
+
+
+                 /* Top 12 shows section */
+.card{
+  width: 300px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: #fff;
+    display: inline-block;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0,0.5);
+    transition: 0.5s all;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem ;
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 1rem ;
+}
+.card:hover{
+  transform: translateZ(20px);
+}
+.card:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(to bottom, rgba(71, 73, 73, 0.5),rgba(205, 211, 196, 0.5));
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+  border-radius: 1rem;
+}
+.card:hover::before{
+  opacity: 1;
+}
+.card .info{
+  position: relative;
+  z-index: 3;
+  opacity: 0;
+  color: #fff;
+  transform: translateX(30px);
+  transition: 0.5s;
+
+}
+.card:hover .info{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card .info h1{
+  font-weight:bolder;
+  text-shadow: 2px 2px 5px #fff ;
+  margin-top:10rem;
+  color: #000;
+  text-align: center;
+  font-family: sans-serif;
+}
+.card .info .btn{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #000;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  margin: 1rem;
+}
+.card .info .btn:hover{
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.9);
+}
+.container .input-add{
+  color: #000;
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+.container .input-add label{
+  font-family: sans-serif;
+}
+.container .input-add input{
+    float: left;
+      width: 100%;
+      background-color: #fff;
+      padding:10px;
+      
+     
+    border: 2px solid gray;
+    margin-top: 10px;
+      border-radius: 6px;
+}
+.container .input-add button{
+  width: 90px;
+  height: 40px;
+  margin-top: 12px;
+  background-color:#0275d8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(74, 74, 72, 1);
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 25px;
+  padding-bottom: 0;
+ 
+}
+.footer h4{
+  text-align: center;
+   padding-top: 4rem;
+}
+.container .details-image img{
+     width: 250px;
+     height: 400px;
+     border-radius: 1rem;
+     margin-left: 1rem;
+     margin-top: 1rem;
+}
+.show-details{
+  
+  float: right;
+  margin-top: 6rem;
+  margin-right:16rem ;
+}
+.show-details h1,h3{
+ font-weight: 1200;
+  font-family: sans-serif;
+}
+.show-details p{
+     font-weight: 200;
+     font-size: 18px;
+}
+.show-button button{
+    margin-top: 1rem;
+    margin-left: 18px;
+    width: 250px;
+    height: 2rem;
+    text-align: center;
+    background-color: #0275d8;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.show-button button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+   
+}
+.preview h2{
+  font-size: 20px;
+  border-left: 5px solid black;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: bolder;
+
+}
+.preview h5{
+  
+  border-left: 5px solid black;
+  margin-top: -1.5rem;
+  padding: 1rem;
+}
+.preview h6{
+  
+  border-left: 5px solid black;
+  margin-top: -1.5rem;
+  padding: 0.5rem;
+  padding-left:1rem;
+}
+.preview span{
+  font-size: 14px;
+  margin-left: 0.5rem;
+  color: #b8b8b8;
+}
+
+
+
+
+
+
+.login {
+  margin: 100px auto;
+  width: 400px;
+  
+  
+}
+
+.login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid rgba(30, 31, 28, 0.5);
+  height: 600px;
+}
+
+
+
+.login form input[type="email"] {
+ 
+  border-radius: 0px 3px 3px 0px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 1em;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding:16px; 
+  width: 90%;
+  height: 50px;
+  
+}
+.login form input[type="text"] {
+  border-radius: 0px 3px 3px 0px;
+  color: #000;
+  font-weight: 400;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding:16px; 
+  width: 90%;
+  height: 50px;
+  
+}
+
+.login form h1{
+  text-align: center;
+  font-family: 'poppins';
+  font-weight: bolder;
+}
+.login form h6{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+
+
+.login form h6 a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+
+}
+.login form h5{
+  font-family: sans-serif;
+  text-align: center;
+  color: gray;
+  margin-top: 1rem;
+
+}
+
+.login form h5 a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  margin-left: 0.3rem;
+  margin-top: 1rem;
+
+}
+
+.login form input[type="password"] {
+  border-radius: 0px 3px 3px 0px;
+  color: #000;
+  margin-bottom: 1em;
+  margin-left: 1rem;
+  padding:16px; 
+  width: 90%;
+  height: 50px;
+  font-weight: 400;
+}
+
+.login form input[type="submit"] {
+  background: rgba(100, 209, 123, 1);
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+.login .social-button #rgstr_btn{
+  background-color: #db4a39;
+  font-weight: bolder; 
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-size: medium;
+}
+.hrdivider {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.hrdivider span {
+  position: absolute;
+  top: -11px;
+  background: #fff;
+  padding: 0 20px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  margin-left: -25px;
+  
+}
+
+
+
+
